@@ -25,7 +25,7 @@ function getMealList(){
                             <img src = "${meal.strMealThumb}" alt = "food">
                         </div>
                         <div class = "meal-name">
-                            <h3>${meal.strMeal}</h3>
+                            <p>${meal.strMeal}</p>
                             <a href = "#" class = "recipe-btn">Get Recipe</a>
                         </div>
                     </div>
@@ -64,7 +64,7 @@ function mealRecipeModal(meal){
             <p>${meal.strInstructions}</p>
         </div>
         <div class = "recipe-meal-img">
-            <img src = "${meal.strMealThumb}" alt = "">
+            <img src = "${meal.strMealThumb}">
         </div>
     `;
     mealDetailsContent.innerHTML = html;

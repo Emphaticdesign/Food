@@ -4,9 +4,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-:root{
-    --tenne-tawny: gray;
-}
+
 body{
     font-weight: 300;
     font-size: 20px;
@@ -80,16 +78,14 @@ body{
 .meal-name{
     padding: 25px 8px;
 }
-.meal-name h3{
-    font-size: 20px;
-}
+
 .recipe-btn{
     text-decoration: none;
     color: #fff;
     background: tomato;
     font-weight: 500;
     font-size:17px;
-    padding: 10px 0;
+    padding: 8px 0;
     display: block;
     width: 175px;
     margin: 15px auto;
@@ -124,17 +120,12 @@ body{
 .showRecipe{
     display: block;
 }
-.meal-details-content{
-    margin: 30px;
-}
-.meal-details-content p:not(.recipe-category){
-    padding: 15px 0;
-}
+
 .recipe-close-btn{
     position: absolute;
     right: 30px;
     top: 30px;
-    font-size: 10px;
+    font-size: 20px;
     background: #fff;
     border: none;
     width: 35px;
@@ -146,24 +137,17 @@ body{
 }
 .recipe-title{
     letter-spacing: 1px;
-    padding-bottom: 15;
+    color: rgb(30, 28, 31);
 }
 .recipe-category{
     background: #fff;
     font-weight: 500;
     color: gray;
     display: inline-block;
-    padding: 5px 8px;
+    padding: 4px;
     border-radius: 5px;
 }
-.recipe-category{
-    background: #fff;
-    font-weight: 500;
-    color: gray;
-    display: inline-block;
-    padding: 5px 8px;
-    border-radius: 5px;
-}
+
 .recipe-meal-img img{
     width: 150px;
     height: 100px;
@@ -173,7 +157,7 @@ body{
 /*  */
 .notFound{
     grid-template-columns: 1fr!important;
-    color: var(--tenne-tawny);
+    color: tomato;
     font-size: 30px;
     font-weight: 600;
     width: 100%;
